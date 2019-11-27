@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main5Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="11dp"
+            android:id="@+id/click_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_x="4dp"
+            android:layout_y="0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btn_choose"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_below="@+id/click_image"
+
+
+            android:background="#3199de"
+            android:text="Repick"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btn_choose_file"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+
+            android:background="#3199de"
+            android:text="Calculate"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</LinearLayout>
